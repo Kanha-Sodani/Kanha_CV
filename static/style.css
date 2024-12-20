@@ -1,0 +1,134 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Font and Body Styling */
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.8;
+    background-color: #f5f7fa; /* Neutral light background */
+    color: #333333; /* Dark grey for text */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styling */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px 30px;
+    background: #ffffff; /* White background for content */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Elegant shadow */
+}
+
+/* Profile Header */
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #cccccc; /* Subtle light grey border */
+    object-fit: cover;
+}
+
+.profile-header h1 {
+    font-size: 2.4em;
+    color: #000000; /* Black for the name */
+    margin-top: 15px;
+}
+
+/* Contact Info */
+.contact-info {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    color: #555555; /* Subtle grey for contact details */
+    margin: 5px 0;
+}
+
+/* Links Section */
+.links {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.links a {
+    color: #0056b3; /* Blue links */
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Headings */
+h2 {
+    font-size: 1.6em;
+    color: #0056b3; /* Blue headings */
+    margin-top: 25px;
+    border-bottom: 2px solid #e0e0e0; /* Subtle divider */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Lists */
+ul {
+    list-style: disc;
+    margin-left: 20px;
+    color: #333333; /* Dark grey for text */
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Button */
+.button {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 12px 25px;
+    background: linear-gradient(90deg, #0056b3, #007bff); /* Gradient blue button */
+    color: #ffffff; /* White text */
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    background: linear-gradient(90deg, #004494, #0056b3); /* Darker blue on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .profile-header img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+}
